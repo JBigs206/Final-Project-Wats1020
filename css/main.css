@@ -1,0 +1,27 @@
+#map-container { height: 400px; }
+
+ .affix {
+      top: 0;
+      width: 80%;
+  }
+
+ header {
+	 min-height: 200px;
+	 background-image: url('../imgs/HeaderImage.jpg');
+	 background-repeat: no-repeat;
+	 background-position: center center;
+	 background-size: cover;
+ }
+
+h2{
+	text-align:center;
+}
+
+#mapItems ul li{
+	list-style-type:none;
+	display:inline;
+	/*margin-bottom: 10px;*/
+	/*padding-left: 900px;*/
+}
+
+  
