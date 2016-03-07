@@ -32,33 +32,46 @@
 					</button>	
 					<div class= "collapse navbar-collapse navHeaderCollapse">
 						<ul class= "nav navbar-nav navbar-right">
-							<li class="active"><a href="#">Home</a></li>
+							<li><a href="index.html">Home</a></li>
 							<li><a href="aboutTown.html">About The Town</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li class="active"><a href="contact.html">Contact Us</a></li>
 						</ul>	
 					</div>	
 				</div>	
 			</div>	
-			<div class="container">
-			<div id="map">
-        		<h2>Map of City</h2><br>
-					
-				<div id="mapItems" class="btn-group">
-				 			<ul>
-					 			<li><button id="ResturantsBtn" class="btn btn-info btn-responsive">Resturants</button></li>
-					 			<li><button id="BarsBtn" class="btn btn-info btn-responsive">Bars</button></li>
-					 			<li><button id="StoresBtn" class="btn btn-info btn-responsive">Stores</button></li>
-					 			<li><button id ="LandmkBtn" class="btn btn-info btn-responsive">Landmarks</button></li>
-		  					</ul>
-	 	 			</div> 	
 			
-				
-		  
-        		<div id="map-container">
-					
-				</div>
-      		</div>
-			
+	<div class="container">
+      <p class="lead">Please enter your name and provide your comment below.</p>
+      <form class="form-horizontal" role="form" action="submit.html" method="get" id="order-form">
+      <!-- TODO: Add a general validation check so that any field contained in a `div.form-group. required` will be required to have information when the user submits the form. -->
+        <fieldset>
+          <legend>Your Information</legend>
+          <div class="form-group required">
+            <label class="col-sm-3 control-label" for="your-name"><span title="Your first and last name."></span> Your Name</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" name="your-name" id="your-name" placeholder="Your Name">
+            </div>
+            <!-- TODO: Make validation for name according to these rules:
+                 * Name must be fewer than 128 characters.
+                 * Name may not contain any numbers.
+                 -->
+          </div>
+		
+			<div class="form-group">
+            	<label class="col-sm-3 control-label" for="comments">Comment</label>
+            	<div class="col-sm-9">
+              		<textarea cols="80" rows="8" class="form-control" name="comments" id="comments" placeholder="Comments"></textarea>
+            	</div>
+            
+          	</div>
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-9">
+              <button type="submit" class="btn btn-success"> <span class="glyphicon glyphicon-check"></span> Submit</button>
+            </div> 
+          </div>
+		</fieldset>
+		</form> 	
+	</div>	 
 			<div class="container">
       			<hr>
 

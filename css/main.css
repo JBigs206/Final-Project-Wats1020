@@ -16,7 +16,9 @@
 h2{
 	text-align:center;
 }
-
+.body {
+	background-color: #ADD8E6;
+}
 #mapItems ul li{
 	list-style-type:none;
 	display:inline;
@@ -24,4 +26,14 @@ h2{
 	/*padding-left: 900px;*/
 }
 
+.pageTitle {
+	text-align:center;
+	margin: 30px;	
+}
   
+.bodyContent {
+	text-indent:50px;
+	margin: 40px;
+	background-color: white;
+	padding: 20px;
+}
