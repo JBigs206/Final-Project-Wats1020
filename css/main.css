@@ -16,9 +16,35 @@
 h2{
 	text-align:center;
 }
+
+#images{
+	padding: 10px;
+	margin: 10px;
+}
 .body {
 	background-color: #ADD8E6;
 }
+
+#ResturantsBtn {
+	background-color: red;	
+	color: yellow;
+}
+
+#BarsBtn{
+	background-color: yellow;
+	color: red;
+}
+
+#StoresBtn{
+	background-color: green;
+	color: orange;
+}
+
+#LandmkBtn{
+	background-color: orange;
+	color: green;
+}
+
 #mapItems ul li{
 	list-style-type:none;
 	display:inline;
