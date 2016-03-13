@@ -43,7 +43,6 @@
 	<div class="container">
       <p class="lead">Please enter your name and provide your comment below.</p>
       <form class="form-horizontal" role="form" action="submit.html" method="get" id="order-form">
-      <!-- TODO: Add a general validation check so that any field contained in a `div.form-group. required` will be required to have information when the user submits the form. -->
         <fieldset>
           <legend>Your Information</legend>
           <div class="form-group required">
@@ -51,10 +50,6 @@
             <div class="col-sm-9">
               <input type="text" class="form-control" name="your-name" id="your-name" placeholder="Your Name" required>
             </div>
-            <!-- TODO: Make validation for name according to these rules:
-                 * Name must be fewer than 128 characters.
-                 * Name may not contain any numbers.
-                 -->
           </div>
 		
 			<div class="form-group required">

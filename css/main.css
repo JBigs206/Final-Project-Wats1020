@@ -26,23 +26,22 @@ h2{
 }
 
 #ResturantsBtn {
-	background-color: red;	
-	color: yellow;
+	background-color: white;	
+	color: black;
+}
+#BarsBtn {
+	background-color: white;	
+	color: black;
 }
 
-#BarsBtn{
-	background-color: yellow;
-	color: red;
+#StoresBtn {
+	background-color: white;	
+	color: black;
 }
 
-#StoresBtn{
-	background-color: green;
-	color: orange;
-}
-
-#LandmkBtn{
-	background-color: orange;
-	color: green;
+#LandmkBtn {
+	background-color: white;	
+	color: black;
 }
 
 #mapItems ul li{
@@ -50,6 +49,7 @@ h2{
 	display:inline;
 	/*margin-bottom: 10px;*/
 	/*padding-left: 900px;*/
+	
 }
 
 .pageTitle {
