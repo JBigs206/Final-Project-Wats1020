@@ -41,7 +41,7 @@ $('#ResturantsBtn').click(function(){
 	
 $('#ResturantsBtn').click(function(){
 	var shark = L.marker([47.61205349999999, -122.3374983]).addTo(map);
-	shark.bindPopup("<b>Shark Fin Biestro</b><br>Chinese Resturant.");
+	shark.bindPopup("<b>Shark Fin Biestro</b><br>Chinese Restaurant.");
 	});	
 	
 $('#ResturantsBtn').click(function(){
